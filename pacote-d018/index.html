@@ -5,43 +5,254 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Portfolio</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/stylemq.css">
     <link rel="shortcut icon" href="favicon.svg" type="image/svg">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
+      <script src="https://kit.fontawesome.com/f220fb1464.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
-       <nav id="menu">
-        
-     <ul>
+   <header>
+        <nav >
+        <ul id="menu">
         <li><a href="#"><span class="material-icons">
 home
 </span></a></li>
         <li><a href="#"><span class="material-icons">
-cognition_2
+wb_incandescent
 </span></a></li>
         <li><a href="#"><span class="material-icons">
 school
 </span></a></li>
         <li><a href="#"><span class="material-icons">
-pattern
+handyman
 </span></a></li>
         <li><a href="#"><span class="material-icons">
 dark_mode
 </span></a></li>
-     </ul>
+                </ul>
+        </nav>
 
-       </nav>
-    </header>
+   </header>
 
-    <main>
+   <main>
+       <section id="ficha">
+  <img style="width: 200px; aspect-ratio: 1/1; overflow: hidden; border-radius: 50%; border: 5px solid #ffffff; outline: 5px solid rgb(21, 184, 21); display: block; margin: auto;" src="imagens/guanabara-perfil.jpg" alt="foto">
+  <h1 style="margin: 15px 0; text-align: center;">Gustavo Guanabara</h1>
+  <p>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores atque voluptatum odio, neque dignissimos suscipit enim sint fugit reprehenderit, sapiente, quam ea id? Dolorum eligendi accusantium voluptatum fugit porro explicabo!
+  </p>
+  <div id="social">
 
-    </main>
+   <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+   <a href="#"><i class="fa-brands fa-github"></i></a>
+   <a href="#"><i class="fa-brands fa-youtube"></i></a>
+   <a href="#"><i class="fa-brands fa-instagram"></i></a><a href="#"><i class="fa-solid fa-sitemap"></i></a>
 
-    <footer>
 
-    </footer>
-    
+  </div>
+       </section>
+
+
+       <section id="detalhes">
+       <article id="video">
+        <h2> <i class="fa-solid fa-handshake" style="margin-right: 5px;"></i>Deixe-me apresentar</h2>
+    <div class="video-container">
+         <iframe class="video" src="https://geo.dailymotion.com/player.html?video=x6ba5xn"style="width:100%; border-radius:10px; height:70vh;  overflow:hidden; border:none;"allowfullscreentitle="Dailymotion Video Player"allow="web-share"></iframe>
+    </div>
+       </article>
+
+
+       <article id="skills"
+       > <h2> <i style="margin-right: 5px;" class="fa-solid fa-brain"></i>Minhas Skills</h2>
+      <div class="skill-container">
+        <div class="item">
+                <div class="info"><div> <i class="fa-solid fa-code"></i>HTML5</div> <span class="por">90%</span>
+
+                </div>
+                 <div class="barra"><div class="progresso"></div></div>
+        </div>
+        <div class="item">
+                <div class="info"><div><i class="fa-solid fa-code"></i>CSS3</div>
+                         <span class="por">80%</span>
+                </div>
+                  <div class="barra"><div class="progresso" style="width: 80%;"></div></div>
+        </div>
+        <div class="item">
+                <div class="info"><div><i class="fa-solid fa-code"></i>JS</div>  <span class="por">75%</span></div>
+                  <div class="barra"><div class="progresso" style="width: 75%;"></div></div>
+        </div>
+        <div class="item">
+                <div class="info"><div><i class="fa-solid fa-code"></i>PHP</div>  <span class="por">60%</span></div>
+                  <div class="barra"><div class="progresso" style="width: 60%;"></div></div>
+        </div>
+        <div class="item">
+                <div class="info"><div><i class="fa-solid fa-person-burst"></i>Comunicação</div> <span class="por">100%</span></div>
+                   <div class="barra"><div class="progresso" style="width: 100%;"></div></div>
+        </div>
+        <div class="item">
+                <div class="info"><div><i class="fa-solid fa-person-burst"></i>Trabalho em equipe </div>    <span class="por">90%</span></div>
+               <div class="barra"><div class="progresso" style="width: 90%;"></div></div>
+        </div>
+        <div class="item">
+                <div class="info"><div><i class="fa-solid fa-person-burst"></i>Adaptabilidade</div>   <span class="por">85%</span></div>
+                 <div class="barra"><div class="progresso" style="width: 85%;"></div></div>
+        </div>
+        <div class="item">
+                <div class="info"><div><i class="fa-solid fa-person-burst"></i>Liderança</div>  <span class="por">80%</span></div>
+               <div class="barra"><div class="progresso" style="width: 80%;"></div></div>
+                 
+        </div>
+      </div>
+
+      
+       </article>
+       <article id="formacao">
+
+        <h2><span style="margin-right: 5px;" class="material-icons">
+school
+</span>Formação</h2>
+
+  <div class="fundoForm">
+   
+       <aside><p class="periodo">1991-1994</p>
+   <h3>Escola Tecnica Carioca</h3>
+   <p class="titulacao">Tecnico em Informatica</p></aside>
+       </div>
+        <div class="fundoForm">
+   
+       <aside><p class="periodo">1991-1994</p>
+   <h3>Escola Tecnica Carioca</h3>
+   <p class="titulacao">Tecnico em Informatica</p></aside>
+       </div>
+        <div class="fundoForm">
+   
+       <aside><p class="periodo">1991-1994</p>
+   <h3>Escola Tecnica Carioca</h3>
+   <p class="titulacao">Tecnico em Informatica</p></aside>
+       </div>
+        <div class="fundoForm">
+   
+       <aside><p class="periodo">1991-1994</p>
+   <h3>Escola Tecnica Carioca</h3>
+   <p class="titulacao">Tecnico em Informatica</p></aside>
+       </div>
+        <div class="fundoForm">
+   
+       <aside><p class="periodo">1991-1994</p>
+   <h3>Escola Tecnica Carioca</h3>
+   <p class="titulacao">Tecnico em Informatica</p></aside>
+       </div>
+        <div class="fundoForm">
+   
+       <aside><p class="periodo">1991-1994</p>
+   <h3>Escola Tecnica Carioca</h3>
+   <p class="titulacao">Tecnico em Informatica</p></aside>
+       </div>
+       </article>
+
+
+       <article id="projetos">
+        <h2><span style="margin-right: 5px;"   class="material-icons">
+handyman
+</span>Meus projetos</h2>
+<aside class="fundo-projetos">
+        <div class="fundo-pro2">
+                  
+                <div>
+                        
+                         <div class="img"> 
+                <img  src="imagens/projeto-06-album.jpg" alt="" style="width: 100%; aspect-ratio: 1/1; overflow: hidden; display: block;
+                         margin: auto; height: 200px; border-radius: 5px;"></div>
+                        
+                         <div class="texto">
+                                  <p class="periodo" >2025</p>
+        <h3 >Projeto Album de Fotos</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id atque itaque aliquam sunt iusto nemo quos rerum quam optio commodi tempora excepturi ullam eveniet, voluptatum recusandae nobis fuga inventore sed.</p>
+                         </div>
+                         </div>
+                        </aside>
+                
+                          <div>
+                                <aside class="fundo-projetos">
+        <div class="fundo-pro2">
+                <div>
+                         <div class="img"><img  src="imagens/projeto-05-login.jpg" alt="" style="width: 100%; aspect-ratio: 1/1; overflow: hidden; display: block;
+                         margin: auto; height: 200px; border-radius: 5px;"></div>
+                         <div class="texto">
+                                <p class="periodo">2024</p>
+                                <h3>Projeto Login</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id atque itaque aliquam sunt iusto nemo quos rerum quam optio commodi tempora excepturi ullam eveniet, voluptatum recusandae nobis fuga inventore sed.</p>
+                         </div>
+                        </aside>
+                               
+                          </div>
+                          <div>
+                                <aside class="fundo-projetos">
+        <div class="fundo-pro2">
+                <div>
+                         <div class="img"><img  src="imagens/projeto-04-links.jpg" alt="" style="width: 100%; aspect-ratio: 1/1; overflow: hidden; display: block;
+                         margin: auto; height: 200px; border-radius: 5px;"></div>
+                         <div class="texto">
+                                <p class="periodo">2024</p>
+                                <h3>Projeto Redes Socias</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id atque itaque aliquam sunt iusto nemo quos rerum quam optio commodi tempora excepturi ullam eveniet, voluptatum recusandae nobis fuga inventore sed.</p>
+                         </div>
+                        </aside>
+                          </div>
+                          <div>
+                                <aside class="fundo-projetos">
+        <div class="fundo-pro2">
+                <div>
+                         <div class="img"><img  src="imagens/projeto-03-android.jpg" alt="" style="width: 100%; aspect-ratio: 1/1; overflow: hidden; display: block;
+                         margin: auto; height: 200px; border-radius: 5px;"></div>
+                         <div class="texto">
+                                <p class="periodo">2023</p>
+                                <h3>Projeto Android</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id atque itaque aliquam sunt iusto nemo quos rerum quam optio commodi tempora excepturi ullam eveniet, voluptatum recusandae nobis fuga inventore sed.</p>
+                         </div>
+                        </aside>
+                          </div>
+                          <div>
+                                <aside class="fundo-projetos">
+        <div class="fundo-pro2">
+                <div>
+                         <div class="img"><img  src="imagens/projeto-02-cordel.jpg" alt="" style="width: 100%; aspect-ratio: 1/1; overflow: hidden; display: block;
+                         margin: auto; height: 200px; border-radius: 5px;"></div>
+                         <div class="texto">
+                                <p class="periodo">2025</p>
+                                <h3>Projeto Cordel</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id atque itaque aliquam sunt iusto nemo quos rerum quam optio commodi tempora excepturi ullam eveniet, voluptatum recusandae nobis fuga inventore sed.</p>
+                         </div>
+                        </aside>
+                          </div>
+        </div>
+</div>
+       </article>
+      
+       </section>
+
+   </main>
+
+   <footer>
+      
+       <div>
+        <a href="#">Fale conosco</a>
+       </div>
+        <div>
+          Site criado pelo curso em video
+       </div>
+       <div>
+          <p>Portugal, Porto</p>
+       </div>
+   </footer>
+
+
+
+
+
+
+
 </body>
 <script src="scripts/script.js"></script>
 </html>
